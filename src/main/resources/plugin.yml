@@ -1,0 +1,19 @@
+name: GuiMaker
+version: '${project.version}'
+main: net.bosshub.guimaker.GuiMaker
+api-version: 1.19
+
+softdepend: [PlaceholderAPI]
+
+commands:
+  help:
+    description: Get information about the server.
+  leaderboard:
+    description: View the top players.
+    aliases: [leaderboards]
+  stats:
+    description: View your stats.
+    aliases: [stats]
+  rules:
+    description: Show the server rules.
+    aliases: [rule]
